@@ -1,0 +1,109 @@
+.Contact {
+    font-family: 'Inconsolata', monospace;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(236, 235, 235);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 17vh;
+    color: black;
+}
+
+Form {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    padding: 2em;
+    background: rgba(190, 190, 190, 0.521);
+}
+
+.Form__title {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.2em;
+    display: flex;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Form label {
+    margin-bottom: .5em;
+    margin-top: 1em;
+}
+
+.Form input {
+    font-family: 'Inconsolata', monospace;
+    padding-left: .5em;
+    font-size: 1em;
+    height: 2em;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    background-color: rgb(236, 235, 235);
+}
+
+.Form__banner {
+    color: rgb(53, 53, 53);
+    font-size: .7em;
+}
+
+.Form input:focus {
+    outline: none;
+}
+
+.Form__message {
+    height: 15em;
+    padding: .8em;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    background-color: rgb(236, 235, 235);
+}
+
+.Form__message:focus {
+    outline: none;
+}
+
+.Form__send {
+    font-family: 'Inconsolata', monospace;
+    height: 35px;
+    width: 100px;
+    font-size: 1em;
+    margin: auto;
+    margin-top: 2em;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    background-color: rgb(230, 228, 228);
+}
+
+.Form__send:focus {
+    outline: 0;
+}
+
+.Form__send:active {
+    transition-duration: 0.2s;
+    transform: scale(0.9);
+    border-bottom: none;
+}
+
+.Form__send:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .Form {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 425px) {
+    .Form {
+        font-size: 16px;
+        width: 70vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .Form {
+        font-size: 14px;
+    }
+}
