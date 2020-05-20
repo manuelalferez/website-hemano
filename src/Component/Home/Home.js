@@ -11,7 +11,7 @@ function Home(props) {
         <img
           className="Picture"
           src={profilePicture}
-          alt="Manuel face"
+          alt="Jose face"
         />
         <p className="Status">{data.status}</p>
       </div>
