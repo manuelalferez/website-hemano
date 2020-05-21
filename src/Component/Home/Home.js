@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import profilePicture from "../../images/Home/avatar.webp";
+import profilePicture from "../../images/Home/avatar2.png";
 import data from "../../data/Home/data";
 import socialData from "../../data/Home/SocialData";
 
