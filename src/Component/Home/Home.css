@@ -138,6 +138,12 @@
       .Home__Description {
           font-size: 1.6em;
       }
+      .Status{
+        display: flex;
+        justify-self: center;
+        flex-direction: column;
+        text-align: center;
+      }
       .Working {
           height: 75px;
           width: 200px;
